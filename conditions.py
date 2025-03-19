@@ -8,5 +8,5 @@ def check(num):
             print("Other")
 
 if __name__ == "__main__":
-    check(0)
+    check(1)
                 

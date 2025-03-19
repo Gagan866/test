@@ -1,4 +1,5 @@
 from conditions import check
 
-def test_():
-    assert check() == "One"
+def test_check():
+    assert check(0) == "Zero"
+    

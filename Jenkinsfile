@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("Checkout code"){
             steps{
-                git url:"https://github.com/Gagan866/test.git" 
+                git url:"https://github.com/Gagan866/test.git", branch:"main"
             }
         }
         stage("Install dependencies"){
